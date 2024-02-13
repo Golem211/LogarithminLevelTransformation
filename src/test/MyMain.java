@@ -10,8 +10,8 @@ public class MyMain {
 	        // Creez BMPreader threads
 	        BMPReader readerThread1 = new BMPReader(buffer, "inImages/Lenabmp.bmp");
 	        BMPReader readerThread2 = new BMPReader(buffer, "inImages/image2.bmp");
-	        BMPReader readerThread3 = new BMPReader(buffer, "inImages/image3.bmp");
-	        BMPReader readerThread4 = new BMPReader(buffer, "inImages/image4.bmp");
+	        //BMPReader readerThread3 = new BMPReader(buffer, "inImages/image3.bmp");
+	        //BMPReader readerThread4 = new BMPReader(buffer, "inImages/image4.bmp");
 	        BMPReader readerThread5 = new BMPReader(buffer, "inImages/image5.bmp");
 	        ///sasada
 	        //creez thredul de procesare
@@ -20,8 +20,8 @@ public class MyMain {
 	        // pornesc toate threadurile
 	        readerThread1.start();
 	        readerThread2.start();
-	        readerThread3.start();
-	        readerThread4.start();
+	        //readerThread3.start();
+	        //readerThread4.start();
 	        readerThread5.start();
 	        processorThread.start();
 	
@@ -30,8 +30,8 @@ public class MyMain {
 	        	
 	            readerThread1.join();
 		        readerThread2.join();
-		        readerThread3.join();
-		        readerThread4.join(); 
+		        //readerThread3.join();
+		        //readerThread4.join(); 
 	            readerThread5.join();
 	            
 	            
