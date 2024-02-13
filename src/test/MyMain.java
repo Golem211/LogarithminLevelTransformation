@@ -13,7 +13,7 @@ public class MyMain {
 	        BMPReader readerThread3 = new BMPReader(buffer, "inImages/image3.bmp");
 	        BMPReader readerThread4 = new BMPReader(buffer, "inImages/image4.bmp");
 	        BMPReader readerThread5 = new BMPReader(buffer, "inImages/image5.bmp");
-	       
+	        ///sasada
 	        //creez thredul de procesare
 	        ImageProcessor processorThread = new ImageProcessor(buffer,null);
 	        
